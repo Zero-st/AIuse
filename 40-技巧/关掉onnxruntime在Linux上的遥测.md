@@ -4,6 +4,7 @@ description: onnxruntime 的 Linux 版自带微软遥测，会连外网、往主
 type: 技巧
 scene: [写代码, 排查问题]
 status: 已验证
+reviewed: 2026-11-24
 date: 2026-11-23
 ---
 

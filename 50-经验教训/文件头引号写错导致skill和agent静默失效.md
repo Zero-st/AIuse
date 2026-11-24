@@ -4,6 +4,7 @@ description: skill 和 agent 说明文件的文件头里引号写错，会解析
 type: 经验教训
 scene: [自动化, 写代码]
 status: 已验证
+reviewed: 2026-11-24
 date: 2026-11-23
 ---
 

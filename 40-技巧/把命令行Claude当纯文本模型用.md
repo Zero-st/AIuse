@@ -4,6 +4,7 @@ description: 一组隔离参数，让命令行 Claude 不带工具、不带个�
 type: 技巧
 scene: [自动化, 写代码]
 status: 已验证
+reviewed: 2026-11-24
 date: 2026-11-23
 ---
 
