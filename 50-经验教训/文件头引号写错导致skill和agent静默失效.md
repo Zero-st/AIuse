@@ -1,6 +1,6 @@
 ---
 name: frontmatter-quote-silent-failure
-description: skill 和 agent 说明文件的文件头里引号写错，会解析失败甚至静默不加载；描述一律加双引号，串内不再用双引号
+description: "描述一律加双引号、串内不再用双引号；出过一次 agent 断档 6 天没人发现的事"
 type: 经验教训
 scene: [自动化, 写代码]
 status: 已验证
