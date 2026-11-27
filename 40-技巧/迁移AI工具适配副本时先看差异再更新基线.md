@@ -4,6 +4,7 @@ description: "换 AI 工具时，分别核对源文件和副本的差异，保�
 type: 技巧
 scene: [写代码, 自动化, 排查问题]
 status: 已验证
+reviewed: 2026-11-27
 date: 2026-11-24
 ---
 

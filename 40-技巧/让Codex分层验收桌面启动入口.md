@@ -4,6 +4,7 @@ description: "桌面快捷方式分层验收测试、冷启动服务和实际界
 type: 技巧
 scene: [写代码, 排查问题]
 status: 未验证
+reviewed: 2026-11-27
 date: 2026-11-24
 ---
 

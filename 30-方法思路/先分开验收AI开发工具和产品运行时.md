@@ -4,6 +4,7 @@ description: "本地 CLI 能跑时，仍要验证网页或 API 的真实调用�
 type: 方法思路
 scene: [写代码, 排查问题]
 status: 已验证
+reviewed: 2026-11-27
 date: 2026-11-24
 ---
 
