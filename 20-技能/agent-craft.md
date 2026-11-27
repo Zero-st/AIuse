@@ -1,6 +1,6 @@
 ---
 name: agent-craft
-description: 写规则、写 skill、编排子 agent 这些判断点上的行动卡：看到什么情况、该考虑什么、代价是什么；卡片蒸馏自一个公开 skill 仓库作者的真实决策，每条能回查原文
+description: "写规则、写 skill、派子 agent 前翻的行动卡：四段格式代价必填、蒸馏自公开仓库可回查、冲突并列不裁决；附技能库检查和用量去重两件工具"
 type: 技能卡
 scope: 全局
 origin: 自建（卡片内容蒸馏自公开仓库 mattpocock/skills）

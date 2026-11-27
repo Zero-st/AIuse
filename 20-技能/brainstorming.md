@@ -1,6 +1,6 @@
 ---
 name: brainstorming
-description: 第三方的头脑风暴 skill，我手动运行，一次问一个问题把模糊的想法理成一份设计，设计获批前不许写代码；我改了交接、落盘和提交的约定，并把它改成只能手动
+description: "第三方头脑风暴 skill 的用法和我的改动：一次一题理成设计、获批前不写代码；改成只能手动、按我的约定落盘不自动提交；全局正文写死了项目约定待清理"
 type: 技能卡
 scope: 全局
 origin: 第三方（fork 自公开仓库 obra/superpowers）；有本地改动

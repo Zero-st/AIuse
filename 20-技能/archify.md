@@ -1,6 +1,6 @@
 ---
 name: archify
-description: 第三方画图 skill，把文字需求或 Mermaid 源码画成可交互的单页网页图；我给它打了一个本地补丁，让宽图不用删内容也能画出来
+description: "第三方画图 skill 的用法和我打的本地补丁：列数可配、图框内横滑、跨节点连线绕行，开关缺省关、逐字一致；补丁思路可照搬到别的第三方 skill"
 type: 技能卡
 scope: 全局
 origin: 第三方（公开仓库 tt-a1i/archify）；有本地补丁

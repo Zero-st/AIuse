@@ -1,6 +1,6 @@
 ---
 name: handoff
-description: 我说要换新会话接着做时，把当前会话压成一份交接文档：只写进展、未决和指针，已有的文档按位置引用不复述，附上下个会话该调哪些 skill
+description: "换新会话前写交接文档：上游原有的「只写活的、已有产物按位置引用」，加我改的自动触发和防误触发；附改前改后的触发评测和外来 skill 的供应商化做法"
 type: 技能卡
 scope: 项目级
 origin: 改造自 mattpocock/skills（公开仓库，MIT 许可）
