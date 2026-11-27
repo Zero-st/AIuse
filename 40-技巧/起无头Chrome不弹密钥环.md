@@ -1,6 +1,6 @@
 ---
 name: headless-chrome-no-keyring-prompt
-description: Linux 上登录时密钥环没有自动解锁的环境里，用脚本起 Chrome（含无头）每次都弹「解锁密钥环」；一律加 --password-store=basic
+description: "Linux 上密钥环没自动解锁时，脚本起 Chrome 一律加 --password-store=basic；改不了的工具用两行包装脚本"
 type: 技巧
 scene: [自动化, 写文档]
 status: 已验证

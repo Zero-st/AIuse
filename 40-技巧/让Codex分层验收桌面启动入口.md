@@ -1,6 +1,6 @@
 ---
 name: codex-desktop-launch-verification
-description: "让 Codex 分别验收自动化测试、真实桌面入口冷启动和用户界面，每层给证据，单列未实测的场景"
+description: "桌面快捷方式分层验收测试、冷启动服务和实际界面，涉及防重复启动时从真实入口连续点击（前两层有实测，界面待验证）"
 type: 技巧
 scene: [写代码, 排查问题]
 status: 未验证

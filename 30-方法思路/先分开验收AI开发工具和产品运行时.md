@@ -1,6 +1,6 @@
 ---
 name: separate-ai-development-and-runtime-acceptance
-description: "同一个 AI 工具既用来开发又嵌入产品时，给开发配置与产品运行分别定验收标准，再凭真实入口的证据决定是否放行"
+description: "本地 CLI 能跑时，仍要验证网页或 API 的真实调用、工具权限和退出行为，再决定是否放行（历史单项目预检）"
 type: 方法思路
 scene: [写代码, 排查问题]
 status: 已验证

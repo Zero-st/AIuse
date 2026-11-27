@@ -1,6 +1,6 @@
 ---
 name: onnxruntime-linux-telemetry-off
-description: onnxruntime 的 Linux 版自带微软遥测，会连外网、往主目录写文件；只有在 import 之前设 ORT_DISABLE_TELEMETRY=1 才关得掉；附断网实测方法
+description: "只有 import 之前设 ORT_DISABLE_TELEMETRY=1 才关得掉；附断网实测方法和三种关法的对照数字"
 type: 技巧
 scene: [写代码, 排查问题]
 status: 已验证

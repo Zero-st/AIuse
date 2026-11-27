@@ -1,6 +1,6 @@
 ---
 name: review-ai-tool-migration-drift
-description: "迁移 AI 工具的技能或项目指令时，分别检查源文件和适配副本的变化，保留人工适配，审阅后再更新基线"
+description: "换 AI 工具时，分别核对源文件和副本的差异，保留人工适配，审阅后更新基线（已验证，限只读差异检查）"
 type: 技巧
 scene: [写代码, 自动化, 排查问题]
 status: 已验证

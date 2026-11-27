@@ -1,6 +1,6 @@
 ---
 name: cli-claude-as-pure-llm
-description: 一组隔离参数，让命令行 Claude 不带工具、不带个人配置，只做文本进、文本出
+description: "一组隔离参数，让它不带工具、不带个人配置，只做文本进文本出；附实测版本和易踩的地方"
 type: 技巧
 scene: [自动化, 写代码]
 status: 已验证

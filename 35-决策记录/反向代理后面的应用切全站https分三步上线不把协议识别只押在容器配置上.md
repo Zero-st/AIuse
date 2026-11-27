@@ -1,6 +1,6 @@
 ---
 name: https-behind-reverse-proxy-staged-rollout
-description: 应用跑在反向代理后面、要全站切 https 时，分三步上线：先改和协议无关的跳转代码，协议识别交给容器按代理头判断，写死的登录回调地址最后单独提交；生产上运维说配好的协议识别没生效，靠代码里按地址强制 https 兜底
+description: "写死的回调地址最后单独上线，回滚要成对；运维说配好的协议识别在生产上没生效，靠代码按地址强制 https 兜底（已验证，限移动端那条）"
 type: 决策记录
 scene: [写代码, 排查问题]
 status: 已验证
