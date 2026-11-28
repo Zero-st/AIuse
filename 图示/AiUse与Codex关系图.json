@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "AiUse 与 Codex 的关系图",
+    "locale": "zh-CN",
+    "quality_profile": "showcase",
+    "viewBox": [
+      1190,
+      520
+    ],
+    "legend": {
+      "mode": "hidden"
+    }
+  },
+  "components": [
+    {
+      "id": "user",
+      "type": "external",
+      "label": "用户",
+      "sublabel": "给任务，或说「记到 AiUse」",
+      "pos": [
+        430,
+        45
+      ],
+      "size": [
+        255,
+        76
+      ]
+    },
+    {
+      "id": "rules",
+      "type": "security",
+      "label": "Codex 生效规则",
+      "sublabel": "用户级与项目级 AGENTS.md",
+      "pos": [
+        40,
+        222
+      ],
+      "size": [
+        215,
+        76
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "backend",
+      "brand": "openai",
+      "label": "Codex",
+      "sublabel": "读条目、执行任务、整理经验",
+      "pos": [
+        430,
+        222
+      ],
+      "size": [
+        255,
+        76
+      ]
+    },
+    {
+      "id": "skill",
+      "type": "backend",
+      "label": "本机 archify 技能",
+      "sublabel": "SKILL.md 与出图脚本",
+      "pos": [
+        40,
+        395
+      ],
+      "size": [
+        215,
+        76
+      ]
+    },
+    {
+      "id": "guide",
+      "type": "database",
+      "label": "工作方式",
+      "sublabel": "AiUse 项目的协作约定",
+      "pos": [
+        890,
+        42
+      ],
+      "size": [
+        250,
+        76
+      ]
+    },
+    {
+      "id": "index",
+      "type": "database",
+      "label": "INDEX.md",
+      "sublabel": "总索引与分类索引",
+      "pos": [
+        890,
+        222
+      ],
+      "size": [
+        250,
+        76
+      ]
+    },
+    {
+      "id": "entries",
+      "type": "database",
+      "label": "Markdown 知识条目",
+      "sublabel": "规矩、技能卡、方法、技巧、教训",
+      "pos": [
+        890,
+        395
+      ],
+      "size": [
+        250,
+        76
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "region",
+      "label": "AiUse 可移植知识库",
+      "wraps": [
+        "guide",
+        "index",
+        "entries"
+      ],
+      "pad": 34
+    }
+  ],
+  "connections": [
+    {
+      "id": "user-task",
+      "from": "user",
+      "to": "codex",
+      "label": "交代任务或明确授权写回",
+      "variant": "emphasis",
+      "labelAt": [
+        557.5,
+        170
+      ]
+    },
+    {
+      "id": "active-rules",
+      "from": "rules",
+      "to": "codex",
+      "label": "加载协作规则"
+    },
+    {
+      "id": "execute-skill",
+      "from": "codex",
+      "to": "skill",
+      "label": "调用已安装技能",
+      "fromSide": "bottom",
+      "toSide": "right"
+    },
+    {
+      "id": "find-guide",
+      "from": "codex",
+      "to": "guide",
+      "label": "按项目指引先读工作方式",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "read-index",
+      "from": "codex",
+      "to": "index",
+      "label": "按需查库",
+      "variant": "emphasis",
+      "labelDy": 10
+    },
+    {
+      "id": "locate-entry",
+      "from": "index",
+      "to": "entries",
+      "label": "定位相关条目",
+      "labelAt": [
+        1015,
+        346
+      ]
+    },
+    {
+      "id": "write-entry",
+      "from": "codex",
+      "to": "entries",
+      "label": "整理条目并登记索引",
+      "variant": "emphasis",
+      "fromSide": "bottom",
+      "toSide": "left"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "查库入口",
+      "items": [
+        "本项目入口已指向 AiUse。",
+        "Codex 的跨项目查库入口待接入。"
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "技能用法",
+      "items": [
+        "这张图由本机 archify 技能生成。",
+        "AiUse 的 archify 技能卡记录用法和经验。"
+      ]
+    },
+    {
+      "dot": "violet",
+      "title": "写回实例",
+      "items": [
+        "先查同题，有则更新，再登记索引。",
+        "AiUse 曾收录 19 条 Codex 实战记录。"
+      ]
+    }
+  ]
+}
